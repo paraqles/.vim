@@ -1,0 +1,13 @@
+" Search options {
+
+  " find as you type search
+  set incsearch
+  " highlight search terms
+  set hlsearch
+
+  " case insensitive search
+  set ignorecase
+  " case sensitive when uc present
+  set smartcase
+" }
+
