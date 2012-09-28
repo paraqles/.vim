@@ -20,7 +20,7 @@
   set colorcolumn=80
 
   " highlight current line
-  set cursorline
+  "set cursorline
   "hi cursorline guibg=#333333   " highlight bg color of current line
   "hi CursorColumn guibg=#333333   " highlight cursor
 
