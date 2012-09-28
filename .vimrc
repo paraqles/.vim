@@ -1,5 +1,6 @@
 " vim: set foldmarker={,} foldlevel=0 foldmethod=marker spell:
 "
+
 " Environment {
 
   " Basics {
@@ -29,13 +30,19 @@
 
 " }
 
-source $HOME/.vim/config/general.vim
-source $HOME/.vim/config/file_options.vim
-source $HOME/.vim/config/plugin_options.vim
-source $HOME/.vim/config/key_mappings.vim
-source $HOME/.vim/config/command_mappings.vim
-source $HOME/.vim/config/file_autocommands.vim
-source $HOME/.vim/config/functions.vim
+source $HOME/.vim/Vundlefile
+
+for f in split(glob($HOME . '/.vim/config/*.vim'), '\n')
+    exe 'source' f
+endfor
+
+"source $HOME/.vim/config/general.vim
+"source $HOME/.vim/config/file_options.vim
+"source $HOME/.vim/config/plugin_options.vim
+"source $HOME/.vim/config/key_mappings.vim
+"source $HOME/.vim/config/command_mappings.vim
+"source $HOME/.vim/config/file_autocommands.vim
+"source $HOME/.vim/config/functions.vim
 
 call InitializeDirectories()
 
