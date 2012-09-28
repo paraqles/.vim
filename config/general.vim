@@ -14,7 +14,7 @@
   " Store a ton of history (default is 20)
   set history=1000
 
-  " windows can be 0 line high 
+  " windows can be 0 line high
   set winminheight=0
 
   " show list instead of just completing
@@ -57,13 +57,9 @@
     endif
   " }
 
-  source $HOME/.vim/config/general/formatting.vim
-  source $HOME/.vim/config/general/ruler.vim
-  source $HOME/.vim/config/general/statusline.vim
-
-  source $HOME/.vim/config/general/look.vim
-  source $HOME/.vim/config/general/feel.vim
-  source $HOME/.vim/config/general/search.vim
+  for f in split(glob($HOME . '/.vim/config/general/*.vim'), '\n')
+      exe 'source' f
+  endfor
 
   " Return to last edit position when opening files (You want this!)
   autocmd BufReadPost *
