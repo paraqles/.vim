@@ -96,6 +96,7 @@ call vundle#rc()
   Bundle 'tpope/vim-repeat'
   Bundle 'vim-ruby/vim-ruby'
   Bundle 'ecomba/vim-ruby-refactoring'
+  Bundle 'skwp/vim-rspec'
 " }
 
 " S plugins {
@@ -141,11 +142,17 @@ call vundle#rc()
 " }
 
 " THEMES {
-  Bundle 'sjl/badwolf'
-  Bundle 'altercation/vim-colors-solarized'
-  Bundle 'tomasr/molokai'
   Bundle 'zaiste/Atom'
+
+  Bundle 'sjl/badwolf'
+
+  Bundle 'tomasr/molokai'
+
   Bundle 'w0ng/vim-hybrid'
+
+  Bundle 'jpo/vim-railscasts-theme'
+
+  Bundle 'altercation/vim-colors-solarized'
 " }
 
 filetype plugin indent on
