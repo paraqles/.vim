@@ -6,7 +6,6 @@
   filetype indent on
 
   set modeline
-
   set autoread
 
 " }
