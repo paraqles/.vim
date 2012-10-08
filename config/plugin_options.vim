@@ -6,9 +6,6 @@ endfor
   :map <C-F10> <Esc>:vsp<CR>:VTree<CR>
   " map Control + F10 to Vtree
 
-      noremap <leader><F5> :CheckSyntax<cr>
-  let g:checksyntax_auto = 1
-
   "comment out line(s) in visual mode -RB: If you do this, you can't
       "switch sides of the comment block in visual mode.
   "vmap  o  :call NERDComment(1, 'toggle')<CR>
@@ -17,6 +14,3 @@ endfor
   let b:match_ignorecase = 1
 " }
 
-" JSON {
-  "nmap <leader>jt <Esc>:%!python -m json.tool<CR><Esc>:set filetype=json<CR>
-" }
