@@ -1,5 +1,5 @@
 " Set look options {
-  colorscheme paraqles
+  colorscheme atom
   " Assume a dark background
   set background=dark
 
