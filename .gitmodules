@@ -168,10 +168,6 @@
   path = bundle/vim-powerline
   url = git://github.com/Lokaltog/vim-powerline.git
 
-[submodule "bundle/pydoc.vim"]
-  path = bundle/pydoc.vim
-  url = git://github.com/fs111/pydoc.vim.git
-
 # }
 
 # Q plugins {
