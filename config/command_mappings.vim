@@ -7,4 +7,9 @@
   " For when you forget to sudo.. Really Write the file.
   cmap w!! w !sudo tee % >/dev/null
 
+  " Folding mappings {
+  inoremap <C-Space> <C-O>za
+  nnoremap <C-Space>
+  " }
+
 " }
