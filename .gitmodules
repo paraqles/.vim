@@ -323,3 +323,9 @@
 
 # }
 
+[submodule "bundle/vim-multimarkdown"]
+	path = bundle/vim-multimarkdown
+	url = git@github.com:aaren/vim-multimarkdown.git
+[submodule "bundle/buffet"]
+	path = bundle/buffet
+	url = git@github.com:sandeepcr529/Buffet.vim.git
