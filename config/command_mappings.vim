@@ -9,7 +9,9 @@
 
   " Folding mappings {
   inoremap <C-Space> <C-O>za
-  nnoremap <C-Space>
+  nnoremap <C-Space> za
+  onoremap <C-Space> <C-C>za
+  vnoremap <C-Space> zf
   " }
 
 " }
