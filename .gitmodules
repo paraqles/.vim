@@ -305,6 +305,10 @@
   path = themes/repo/molokai
   url = git://github.com/tomasr/molokai.git
 
+[submodule "themes/repo/paraqles"]
+  path = themes/repo/paraqles
+  url = git://github.com/paraqles/vim-colors-paraqles.git
+
 [submodule "themes/repo/vim-railscasts-theme"]
   path = themes/repo/vim-railscasts-theme
   url = https://github.com/jpo/vim-railscasts-theme.git
