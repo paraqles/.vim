@@ -22,9 +22,13 @@
   " Setup Bundle Support {
 
     " The next two lines ensure that the ~/.vim/bundle/ system works
-    runtime! autoload/pathogen.vim
+    "runtime! autoload/pathogen.vim
+    "silent! call pathogen#helptags()
+    "silent! call pathogen#runtime_append_all_bundles()
+    "
+    runtime! $HOME/.vim/plugins/repo/vim-pathogen/autoload/pathogen.vim
     silent! call pathogen#helptags()
-    silent! call pathogen#runtime_append_all_bundles()
+    source $HOME/.vim/config/plugins.vim
 
   " }
 
