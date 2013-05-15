@@ -1,1 +1,1 @@
-../bundle/vim-colors-solarized/colors/solarized.vim
+../themes/repo/vim-colors-solarized/colors/solarized.vim

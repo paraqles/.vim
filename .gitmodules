@@ -14,17 +14,17 @@
 # }
 
 # B plugins {
-[submodule "plugins/repo/vim-plugins/repor"]
-  path = plugins/repo/vim-plugins/repor
-  url = git://github.com/tpope/vim-plugins/repor.git
+[submodule "plugins/repo/buffet"]
+  path = plugins/repo/buffet
+  url = git@github.com:sandeepcr529/Buffet.vim.git
+
+[submodule "plugins/repo/vim-bundler"]
+  path = plugins/repo/vim-bundler
+  url = git://github.com/tpope/vim-bundler.git
 
 # }
 
 # C plugins {
-[submodule "plugins/repo/checksyntax_vim"]
-  path = plugins/repo/checksyntax_vim
-  url = git://github.com/tomtom/checksyntax_vim.git
-
 [submodule "plugins/repo/ctrlp.vim"]
   path = plugins/repo/ctrlp.vim
   url = git://github.com/kien/ctrlp.vim.git
@@ -131,6 +131,10 @@
   path = plugins/repo/vim-matchit
   url = git://github.com/tsaleh/vim-matchit.git
 
+[submodule "plugins/repo/vim-multimarkdown"]
+  path = plugins/repo/vim-multimarkdown
+  url = git@github.com:aaren/vim-multimarkdown.git
+
 [submodule "plugins/repo/mustache.vim"]
   path = plugins/repo/mustache.vim
   url = git://github.com/juvenn/mustache.vim.git
@@ -217,10 +221,6 @@
   path = plugins/repo/vim-stylus
   url = git://github.com/wavded/vim-stylus.git
 
-[submodule "plugins/repo/supertab"]
-  path = plugins/repo/supertab
-  url = git://github.com/ervandew/supertab.git
-
 [submodule "plugins/repo/vim-surround"]
   path = plugins/repo/vim-surround
   url = git://github.com/tpope/vim-surround.git
@@ -235,10 +235,6 @@
 [submodule "plugins/repo/tagbar"]
   path = plugins/repo/tagbar
   url = git://github.com/majutsushi/tagbar.git
-
-[submodule "plugins/repo/vim-tmux"]
-  path = plugins/repo/vim-tmux
-  url = git://github.com/tsaleh/vim-tmux.git
 
 [submodule "plugins/repo/vim-indent-object"]
   path = plugins/repo/vim-indent-object
@@ -274,10 +270,6 @@
   path = plugins/repo/vim-vroom
   url = git://github.com/skalnik/vim-vroom.git
 
-[submodule "plugins/repo/vundle"]
-  path = plugins/repo/vundle
-  url = https://github.com/gmarik/vundle.git
-
 # }
 
 # W plugins {
@@ -297,35 +289,29 @@
 # }
 
 # THEMES {
-[submodule "plugins/repo/Atom"]
-  path = plugins/repo/Atom
+[submodule "themes/repo/Atom"]
+  path = themes/repo/Atom
   url = git://github.com/zaiste/Atom.git
 
-[submodule "plugins/repo/badwolf"]
-  path = plugins/repo/badwolf
+[submodule "themes/repo/badwolf"]
+  path = themes/repo/badwolf
   url = git://github.com/sjl/badwolf.git
 
-[submodule "plugins/repo/vim-hybrid"]
-  path = plugins/repo/vim-hybrid
+[submodule "themes/repo/vim-hybrid"]
+  path = themes/repo/vim-hybrid
   url = git://github.com/w0ng/vim-hybrid.git
 
-[submodule "plugins/repo/molokai"]
-  path = plugins/repo/molokai
+[submodule "themes/repo/molokai"]
+  path = themes/repo/molokai
   url = git://github.com/tomasr/molokai.git
 
-[submodule "plugins/repo/vim-railscasts-theme"]
-  path = plugins/repo/vim-railscasts-theme
+[submodule "themes/repo/vim-railscasts-theme"]
+  path = themes/repo/vim-railscasts-theme
   url = https://github.com/jpo/vim-railscasts-theme.git
 
-[submodule "plugins/repo/vim-colors-solarized"]
-  path = plugins/repo/vim-colors-solarized
+[submodule "themes/repo/vim-colors-solarized"]
+  path = themes/repo/vim-colors-solarized
   url = git://github.com/altercation/vim-colors-solarized.git
 
 # }
 
-[submodule "plugins/repo/vim-multimarkdown"]
-	path = plugins/repo/vim-multimarkdown
-	url = git@github.com:aaren/vim-multimarkdown.git
-[submodule "plugins/repo/buffet"]
-	path = plugins/repo/buffet
-	url = git@github.com:sandeepcr529/Buffet.vim.git

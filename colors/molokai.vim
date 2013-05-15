@@ -1,1 +1,1 @@
-../bundle/molokai/colors/molokai.vim
+../themes/repo/molokai/colors/molokai.vim

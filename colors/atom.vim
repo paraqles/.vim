@@ -1,1 +1,1 @@
-../bundle/Atom/colors/atom.vim
+../themes/repo/Atom/colors/atom.vim

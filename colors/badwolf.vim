@@ -1,1 +1,1 @@
-../bundle/badwolf/colors/badwolf.vim
+../themes/repo/badwolf/colors/badwolf.vim
