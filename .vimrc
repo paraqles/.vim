@@ -19,34 +19,12 @@
     endif
   " }
 
-  " Setup Bundle Support {
-
-    " The next two lines ensure that the ~/.vim/bundle/ system works
-    "runtime! autoload/pathogen.vim
-    "silent! call pathogen#helptags()
-    "silent! call pathogen#runtime_append_all_bundles()
-    "
-    runtime! $HOME/.vim/plugins/repo/vim-pathogen/autoload/pathogen.vim
-    silent! call pathogen#helptags()
-    source $HOME/.vim/config/plugins.vim
-
-  " }
-
+  source $HOME/.vim/config/plugins.vim
 " }
-
-" source $HOME/.vim/Vundlefile
 
 for f in split(glob($HOME . '/.vim/config/*.vim'), '\n')
     exe 'source' f
 endfor
-
-"source $HOME/.vim/config/general.vim
-"source $HOME/.vim/config/file_options.vim
-"source $HOME/.vim/config/plugin_options.vim
-"source $HOME/.vim/config/key_mappings.vim
-"source $HOME/.vim/config/command_mappings.vim
-"source $HOME/.vim/config/file_autocommands.vim
-"source $HOME/.vim/config/functions.vim
 
 call InitializeDirectories()
 
