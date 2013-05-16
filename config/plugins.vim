@@ -1,4 +1,5 @@
-for f in split(glob('~/.vim/plugins/base/*'), '\n')
-    exe pathogen#infect(f . "/{}")
-endfor
+runtime! plugins/repo/vim-pathogen/autoload/pathogen.vim
+call pathogen#helptags()
+
+execute pathogen#infect('plugins/base/{}')
 
