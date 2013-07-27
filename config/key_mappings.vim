@@ -30,13 +30,15 @@
 
   map <leader>e :e new<cr>
 
-  source $HOME/.vim/config/key_mappings/normal.vim
-  source $HOME/.vim/config/key_mappings/visual.vim
-  source $HOME/.vim/config/key_mappings/command.vim
+  "source $HOME/.vim/config/key_mappings/normal.vim
+  "source $HOME/.vim/config/key_mappings/visual.vim
+  "source $HOME/.vim/config/key_mappings/command.vim
 
-  source $HOME/.vim/config/key_mappings/buffer.vim
-  source $HOME/.vim/config/key_mappings/move_text.vim
-  source $HOME/.vim/config/key_mappings/folding.vim
-  source $HOME/.vim/config/key_mappings/tabs.vim
+  "source $HOME/.vim/config/key_mappings/buffer.vim
+  "source $HOME/.vim/config/key_mappings/move_text.vim
+  "source $HOME/.vim/config/key_mappings/folding.vim
+  "source $HOME/.vim/config/key_mappings/tabs.vim
+
+  runtime! config/key_mappings/*.vim
 
 " }

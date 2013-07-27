@@ -57,8 +57,9 @@
     endif
   " }
 
-  for f in split(glob($HOME . '/.vim/config/general/*.vim'), '\n')
-      exe 'source' f
-  endfor
+  runtime! config/general/*.vim
+  "for f in split(glob($HOME . '/.vim/config/general/*.vim'), '\n')
+      "exe 'source' f
+  "endfor
 
 " }
