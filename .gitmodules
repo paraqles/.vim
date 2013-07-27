@@ -175,3 +175,7 @@
 [submodule "themes/repo/vim-colors-solarized"]
 	path = themes/repo/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "spell"]
+  path = spell
+  url = git://github.com/paraqles/vim-spell-files.git
+
