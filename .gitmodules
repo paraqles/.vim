@@ -73,6 +73,9 @@
 [submodule "plugins/repo/neocomplcache"]
 	path = plugins/repo/neocomplcache
 	url = git://github.com/Shougo/neocomplcache.git
+[submodule "plugins/repo/neocomplete"]
+	path = plugins/repo/neocomplete
+	url = https://github.com/Shougo/neocomplete.vim.git
 [submodule "plugins/repo/nerdcommenter"]
 	path = plugins/repo/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
@@ -172,3 +175,7 @@
 [submodule "themes/repo/vim-colors-solarized"]
 	path = themes/repo/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "spell"]
+  path = spell
+  url = git://github.com/paraqles/vim-spell-files.git
+

@@ -19,12 +19,14 @@
     endif
   " }
 
-  source $HOME/.vim/config/plugins.vim
+  "source $HOME/.vim/config/plugins.vim
+  runtime! config/plugins.vim
 " }
 
-for f in split(glob($HOME . '/.vim/config/*.vim'), '\n')
-    exe 'source' f
-endfor
+runtime! config/*.vim
+"for f in split(glob($HOME . '/.vim/config/*.vim'), '\n')
+    "exe 'source' f
+"endfor
 
 call InitializeDirectories()
 

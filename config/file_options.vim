@@ -8,4 +8,6 @@
   set modeline
   set autoread
 
+  let g:tex_flavor = 'latex'
+
 " }

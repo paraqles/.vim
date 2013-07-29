@@ -3,6 +3,7 @@
 "source $HOME/.vim/functions/visual_selection.vim
 "source $HOM
 
-for f in split(glob($HOME.'/.vim/functions/*.vim'), '\n')
-    exe 'source' f
-endfor
+runtime! functions/*.vim
+"for f in split(glob($HOME.'/.vim/functions/*.vim'), '\n')
+    "exe 'source' f
+"endfor
