@@ -70,9 +70,6 @@
 [submodule "plugins/repo/mustache.vim"]
 	path = plugins/repo/mustache.vim
 	url = git://github.com/juvenn/mustache.vim.git
-[submodule "plugins/repo/neocomplcache"]
-	path = plugins/repo/neocomplcache
-	url = git://github.com/Shougo/neocomplcache.git
 [submodule "plugins/repo/neocomplete"]
 	path = plugins/repo/neocomplete
 	url = https://github.com/Shougo/neocomplete.vim.git
