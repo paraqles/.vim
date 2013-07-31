@@ -99,6 +99,10 @@
   path = plugins/repo/neocomplete
   url = https://github.com/Shougo/neocomplete.vim.git
 
+[submodule "plugins/repo/neocomplcache"]
+	path = plugins/repo/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.vim.git
+
 [submodule "plugins/repo/neosnippet"]
 	path = plugins/repo/neosnippet
 	url = https://github.com/Shougo/neosnippet.vim.git
