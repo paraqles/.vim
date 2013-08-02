@@ -100,12 +100,12 @@
   url = https://github.com/Shougo/neocomplete.vim.git
 
 [submodule "plugins/repo/neocomplcache"]
-	path = plugins/repo/neocomplcache
-	url = https://github.com/Shougo/neocomplcache.vim.git
+  path = plugins/repo/neocomplcache
+  url = https://github.com/Shougo/neocomplcache.vim.git
 
 [submodule "plugins/repo/neosnippet"]
-	path = plugins/repo/neosnippet
-	url = https://github.com/Shougo/neosnippet.vim.git
+  path = plugins/repo/neosnippet
+  url = https://github.com/Shougo/neosnippet.vim.git
 
 [submodule "plugins/repo/nerdcommenter"]
   path = plugins/repo/nerdcommenter
@@ -123,9 +123,9 @@
   path = plugins/repo/PIV
   url = git://github.com/spf13/PIV.git
 
-[submodule "plugins/repo/vim-powerline"]
-  path = plugins/repo/vim-powerline
-  url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "plugins/repo/powerline"]
+  path = plugins/repo/powerline
+  url = https://github.com/Lokaltog/powerline.git
 
 [submodule "plugins/repo/vim-rails"]
   path = plugins/repo/vim-rails
@@ -212,8 +212,8 @@
   url = git://github.com/vim-scripts/YankRing.vim.git
 
 [submodule "snippets"]
-	path = snippets
-	url = https://github.com/honza/vim-snippets.git
+  path = snippets
+  url = https://github.com/honza/vim-snippets.git
 
 [submodule "themes/repo/Atom"]
   path = themes/repo/Atom
