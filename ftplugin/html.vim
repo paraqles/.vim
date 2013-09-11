@@ -17,5 +17,5 @@ setlocal smarttab
 setlocal foldenable
 setlocal foldmethod=syntax
 
-setlocal omnifunc=htmlcomplete#CompleteTags
+setlocal omnifunc=htmlcomplete#Complete
 

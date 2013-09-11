@@ -14,3 +14,6 @@ setlocal wrapmargin=3
 setlocal colorcolumn=79
 
 setlocal foldmethod=indent
+
+setlocal omnifunc=pythoncomplete#Complete
+

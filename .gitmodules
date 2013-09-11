@@ -247,3 +247,9 @@
   path = spell
   url = git://github.com/paraqles/vim-spell-files.git
 
+[submodule "plugins/repo/supertab"]
+	path = plugins/repo/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "plugins/repo/vim-fish"]
+	path = plugins/repo/vim-fish
+	url = https://github.com/aliva/vim-fish.git

@@ -20,3 +20,4 @@ setlocal foldmethod=marker
 setlocal foldmarker={,}
 
 setlocal spell
+

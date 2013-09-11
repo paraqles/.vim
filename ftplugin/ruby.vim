@@ -17,3 +17,5 @@ setlocal smarttab
 setlocal foldenable
 setlocal foldmethod=syntax
 
+setlocal omnifunc=rubycomplete#Complete
+

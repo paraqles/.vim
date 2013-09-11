@@ -17,3 +17,5 @@ setlocal smarttab
 setlocal foldenable
 setlocal foldmethod=indent
 
+setlocal omnifunc=javascriptcomplete#Complete
+
