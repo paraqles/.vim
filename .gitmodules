@@ -253,3 +253,6 @@
 [submodule "plugins/repo/vim-fish"]
 	path = plugins/repo/vim-fish
 	url = https://github.com/aliva/vim-fish.git
+[submodule "plugins/repo/pyflakes"]
+	path = plugins/repo/pyflakes
+	url = https://github.com/kevinw/pyflakes-vim.git
