@@ -67,6 +67,10 @@
   path = plugins/repo/hammer.vim
   url = git://github.com/matthias-guenther/hammer.vim.git
 
+[submodule "plugins/repo/go"]
+  path = plugins/repo/go
+  url = git://github.com/paraqles/vim-go.git
+
 [submodule "plugins/repo/vim-jade"]
   path = plugins/repo/vim-jade
   url = git://github.com/digitaltoad/vim-jade.git
@@ -126,6 +130,10 @@
 [submodule "plugins/repo/powerline"]
   path = plugins/repo/powerline
   url = https://github.com/Lokaltog/powerline.git
+
+[submodule "plugins/repo/pyflakes"]
+  path = plugins/repo/pyflakes
+  url = https://github.com/kevinw/pyflakes-vim.git
 
 [submodule "plugins/repo/vim-rails"]
   path = plugins/repo/vim-rails
