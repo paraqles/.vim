@@ -5,3 +5,6 @@ Session.vim
 .netrwhist
 tmp/*
 *.orig*
+
+plugins/**/spell/*
+plugins/**/doc/tags

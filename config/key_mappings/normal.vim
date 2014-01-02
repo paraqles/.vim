@@ -36,3 +36,5 @@ map <leader>w :w!<cr>
 map <leader>su g~iw
 
 map <leader>q :qa<cr>
+
+inoremap <C-Backspace> <C-W>
