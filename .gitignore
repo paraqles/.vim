@@ -1,0 +1,12 @@
+.*.sw[a-z]
+*.un~
+*~
+Session.vim
+.netrwhist
+tmp/*
+*.orig*
+.DS_Store
+._*
+
+plugins/**/spell/*
+plugins/**/doc/tags
