@@ -4,6 +4,7 @@
 " Environment {
   " Basics {
     set nocompatible     " must be first line
+    set hidden
     "set background=dark     " Assume a dark background
   " }
 
@@ -20,6 +21,15 @@
 
 " }
 "
+filetype off
+set rtp+=~/.vim/vundle_bootstrap.vim
+
+call vundle#begin()
+call vundle#end()
+
+filetype plugin on
+
+runtime! vundle.vim
 "runtime! config/plugins.vim
 
 if has('autocmd')

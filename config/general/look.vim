@@ -1,8 +1,10 @@
 " Set look options {
   if has('gui_running')
-    set guifont=Sauce\ Code\ Powerline:h11
+    "set guifont=Sauce\ Code\ Powerline:h11
+    "
   endif
-  colorscheme hybrid_material
+
+  colorscheme base16-chalk
   " Assume a dark background
   "set background=dark
 

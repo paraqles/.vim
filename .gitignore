@@ -10,3 +10,5 @@ tmp/*
 
 plugins/**/spell/*
 plugins/**/doc/tags
+
+bundle/
