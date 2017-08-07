@@ -130,7 +130,10 @@ runtime! functions/*.vim
   " minimum lines to keep above and below cursor
   set scrolloff=3
 
-  set splitbelow
+  " split window horizontal
+  "set splitbelow
+  " split window vertical
+  set splitright
 
   " activate special meaning for \(\) \| ~ * . $
   " Removes special meaning for {}
