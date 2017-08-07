@@ -44,8 +44,7 @@ if has('autocmd')
 endif
 
 runtime! functions/*.vim
-runtime! config/plugin_options.vim
-
+"runtime! config/plugin_options.vim
 "runtime! config/*.vim
 
 " General {
@@ -242,6 +241,8 @@ runtime! config/plugin_options.vim
 
   " Command Mappings {
     cmap cwd lcd %:p:h
+
+    cmap w!! w !sudo tee % >/dev/null
   " }
 
   " Split movements {
@@ -270,17 +271,26 @@ runtime! config/plugin_options.vim
   " Switch CWD to the directory of the open buffer
   map <leader>cd :cd %:p:h<cr>:pwd<cr>
 
-  " Code folding options
-  nmap <leader>f0 :set foldlevel=0<CR>
-  nmap <leader>f1 :set foldlevel=1<CR>
-  nmap <leader>f2 :set foldlevel=2<CR>
-  nmap <leader>f3 :set foldlevel=3<CR>
-  nmap <leader>f4 :set foldlevel=4<CR>
-  nmap <leader>f5 :set foldlevel=5<CR>
-  nmap <leader>f6 :set foldlevel=6<CR>
-  nmap <leader>f7 :set foldlevel=7<CR>
-  nmap <leader>f8 :set foldlevel=8<CR>
-  nmap <leader>f9 :set foldlevel=9<CR>
+  " Code folding options {
+    nmap <leader>f0 :set foldlevel=0<CR>
+    nmap <leader>f1 :set foldlevel=1<CR>
+    nmap <leader>f2 :set foldlevel=2<CR>
+    nmap <leader>f3 :set foldlevel=3<CR>
+    nmap <leader>f4 :set foldlevel=4<CR>
+    nmap <leader>f5 :set foldlevel=5<CR>
+    nmap <leader>f6 :set foldlevel=6<CR>
+    nmap <leader>f7 :set foldlevel=7<CR>
+    nmap <leader>f8 :set foldlevel=8<CR>
+    nmap <leader>f9 :set foldlevel=9<CR>
+  " }
+
+  " Folding toggles {
+    inoremap <C-Space> <C-O>za
+    nnoremap <C-Space> za
+    onoremap <C-Space> <C-C>za
+    vnoremap <C-Space> zf
+  " }
+
 
   " Move a line of text using ALT+[jk] or Comamnd+[jk] on mac
   nmap <M-j> mz:m+<cr>`z
@@ -347,11 +357,80 @@ runtime! config/plugin_options.vim
 " Plugin Options {
 
   " Syntastic Options {
+
     let g:syntastic_always_populate_loc_list = 1
     let g:syntastic_auto_loc_list = 1
     let g:syntastic_check_on_open = 0
     let g:syntastic_check_on_wq = 0
+
+    let g:syntastic_enable_signs=1
   " }
+
+  " }
+
+  " fugitive Mapping {
+    if exists(":Gstatus")
+      nnoremap <F3> :Gstatus<CR>
+    endif
+  " }
+
+  " Tabulaarize mappings {
+    if exists(":Tabularize")
+      nmap <Leader>T= :Tabularize /=<CR>
+      vmap <Leader>T= :Tabularize /=<CR>
+      nmap <Leader>T: :Tabularize /:\zs<CR>
+      vmap <Leader>T: :Tabularize /:\zs<CR>
+    endif
+  " }
+
+  " Tagbar {
+    if exists(":TagbarToggle")
+      nmap <F4> :TagbarToggle<CR>
+    endif
+
+    let g:tagbar_type_elixir = {
+      \ 'ctagstype': 'elixir',
+          \ 'kinds' : [
+          \ 'f:functions',
+          \ 'functions:functions',
+          \ 'c:callbacks',
+          \ 'd:delegates',
+          \ 'e:exceptions',
+          \ 'i:implementations',
+          \ 'a:macros',
+          \ 'o:operators',
+          \ 'm:modules',
+          \ 'p:protocols',
+          \ 'r:records',
+          \ 't:tests'
+      \ ]
+    \ }
+  " }
+
+  " SuperTab {
+    let g:SuperTabDefaultCompletionType = "context"
+    "let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
+    let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+  " }
+
+  " CtrlP {
+    "let g:ctrlp_cmd = 'CtrlPMixed'
+    let g:ctrlp_root_markers = ['build.gradle', 'mix.exs']
+  " }
+
+  " Misc {
+    ":map <C-F10> <Esc>:vsp<CR>:VTree<CR>
+    " map Control + F10 to Vtree
+
+    "comment out line(s) in visual mode -RB: If you do this, you can't
+        "switch sides of the comment block in visual mode.
+    "vmap  o  :call NERDComment(1, 'toggle')<CR>
+    "let g:NERDShutUp=1
+
+    "let b:match_ignorecase = 1
+  " }
+
+" }
 
 call InitializeDirectories()
 

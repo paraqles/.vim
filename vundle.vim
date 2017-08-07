@@ -26,7 +26,7 @@ Plugin 'scrooloose/nerdtree'
 
 " Search Plugins
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'vim-ctrlspace/vim-ctrlspace'
+"Plugin 'vim-ctrlspace/vim-ctrlspace'
 
 Plugin 'bling/vim-airline'
 Plugin 'bling/vim-bufferline'
