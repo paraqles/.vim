@@ -417,8 +417,14 @@ runtime! functions/*.vim
   " }
 
   " CtrlP {
-    "let g:ctrlp_cmd = 'CtrlPMixed'
+    let g:ctrlp_cmd = 'CtrlPMixed'
     let g:ctrlp_root_markers = ['build.gradle', 'mix.exs']
+  " }
+
+  " CTags {
+    set tags=./tags;/,$HOME/vimtags
+
+    map <C-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
   " }
 
   " Misc {
