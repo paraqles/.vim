@@ -369,8 +369,6 @@ runtime! functions/*.vim
     let g:syntastic_enable_signs=1
   " }
 
-  " }
-
   " fugitive Mapping {
     if exists(":Gstatus")
       nnoremap <F3> :Gstatus<CR>
@@ -426,6 +424,11 @@ runtime! functions/*.vim
 
     map <C-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
   " }
+
+  " NerdTree mappings {
+    map <C-T> :NERDTreeToggle<CR>
+  " }
+" }
 
   " Misc {
     ":map <C-F10> <Esc>:vsp<CR>:VTree<CR>
