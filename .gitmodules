@@ -4,3 +4,6 @@
 [submodule "vundle_bootstrap.vim"]
 	path = vundle_bootstrap.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
